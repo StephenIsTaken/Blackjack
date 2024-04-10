@@ -133,7 +133,7 @@ public class BlackjackGUI extends JFrame implements ActionListener {
 
     private Cards getRandomCard() {
         Random rand = new Random();
-        return Cards.values()[rand.nextInt(13)];
+        return Cards.values()[rand.nextInt(12)];
     }
 
     private String translateToString(Cards card) {
